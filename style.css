@@ -34,6 +34,10 @@ body {
   color: var(--text-color);
 }
 
+
+
+
+
 header {
   position: fixed;
   top: 0;
@@ -111,7 +115,7 @@ span {
   border-image: linear-gradient(135deg, transparent 50%, var(--color-o4)) 1;
 }
 
-.about-img{
+.about-img {
   border-left: solid 0.6rem;
   border-bottom: solid 0.1rem;
   border-image: linear-gradient(255deg, transparent 50%, var(--color-o4)) 1;
@@ -177,6 +181,7 @@ span {
 
 
 }
+
 .services-box {
   display: flex;
   flex-direction: column;
@@ -323,11 +328,12 @@ form {
 
 }
 
-.btn-container{
+.btn-container {
   text-align: center;
 }
-.btn-contact-me{
-  
+
+.btn-contact-me {
+
   display: inline-block;
   padding: 0.3rem;
   background-color: var(--color-o4);
@@ -339,7 +345,7 @@ form {
   margin-top: 1.0rem;
 }
 
-.btn-contact-me:hover{
+.btn-contact-me:hover {
   box-shadow: 0 0 0.3rem var(--color-o4);
   background-color: inherit;
   color: var(--color-o4);
@@ -360,7 +366,7 @@ form textarea {
   font-size: 1rem;
   background-color: var(--bg-color-02);
   border-radius: 0.5rem;
-  margin: 0.4rem 0;
+  margin: 1.0rem 0;
 
 
 }
@@ -587,11 +593,11 @@ footer {
 
 
 
-  .services-container {
-    flex-direction: column;
-    gap: 1.2rem;
+.services-container {
+  flex-direction: column;
+  gap: 1.2rem;
 
-  }
+}
 
 
 

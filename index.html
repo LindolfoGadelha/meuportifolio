@@ -18,6 +18,15 @@
 
 <body>
   
+  <div class="bg-all">
+    <div class="titel">Welcom To This Page </div>
+    <div class="culd"></div>
+    <div class="culd"></div>
+    <div class="culd"></div>
+    <div class="culd"></div>
+    <div class="culd"></div>
+</div>
+
   <header>
     <a href="#" class="logo">Portifolio</a>
 
@@ -70,7 +79,7 @@
       </div>
 
       <div>
-        <a href="./curriculo/Curriculo Lindolfo.zip" class="btn">Download CV</a>
+        <a href="./curriculo/Lindolfo Gadelha (2).pdf" class="btn">Download CV</a>
       </div>
     </div>
 
@@ -85,7 +94,7 @@
   </section>
 
   <section class="services" id="services">
-    <h2>Nossos <span>Serviços</span></h2>
+    <h2>Meus <span>Serviços</span></h2>
 
     <div class="services-container">
       <div class="services-box">
@@ -230,20 +239,24 @@
   </button>
 </div>
 
-    <form action="https://formcarry.com/s/NFQx70TyF94" class="contact-me" method="POST" enctype="multipart/form-data">
+<form
+       action="https://formcarry.com/s/5unJwrR9oxL"
+       method="POST"
+       enctype="multipart/form-data"
+       >
       <div class="input-box">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="E-mail">
+        <input name="Nome" type="text" placeholder="Full Name" required>
+        <input name="E-mail" type="email" placeholder="E-mail" required>
 
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Phone Number">
-        <input type="text" placeholder="Subject">
+        <input name="Phone" type="tel" placeholder="Phone Number" required>
+        <input name="Bubjeção" type="text" placeholder="Subject" required>
       </div>
 
-      <textarea cols="30" rows="10" placeholder="Message"></textarea>
+      <textarea cols="30" rows="10" placeholder="Message" required></textarea>
 
-      <button class="btn">Send Message</button>
+      <button type="submit" class="btn">Send Message</button>
     </form>
 
 
